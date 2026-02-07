@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/web3-index.html" },
+    { "source": "/marketplace", "destination": "/web3-marketplace.html" },
+    { "source": "/about", "destination": "/web3-about.html" },
+    { "source": "/connect", "destination": "/web3-connect.html" }
+  ]
+}
