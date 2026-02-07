@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace | CryptoVerse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="gr">ΕΛ</button>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-hex">Ͼ</div>
+                <span>CryptoVerse</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="web3-index.html" data-en="Home" data-gr="Αρχική">Home</a></li>
+                <li><a href="web3-marketplace.html" class="active" data-en="Marketplace" data-gr="Αγορά">Marketplace</a></li>
+                <li><a href="web3-about.html" data-en="About" data-gr="Σχετικά">About</a></li>
+                <li><a href="web3-connect.html" data-en="Connect" data-gr="Σύνδεση">Connect</a></li>
+            </ul>
+            <button class="btn-wallet" data-en="Connect Wallet" data-gr="Σύνδεση Πορτοφολιού">Connect Wallet</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-en="Explore NFT Marketplace" data-gr="Εξερευνήστε την Αγορά NFT">Explore NFT Marketplace</h1>
+            <p data-en="Discover unique digital collectibles from top creators worldwide" data-gr="Ανακαλύψτε μοναδικά ψηφιακά συλλεκτικά από κορυφαίους δημιουργούς">
+                Discover unique digital collectibles from top creators worldwide
+            </p>
+        </div>
+    </section>
+
+    <section class="marketplace-section">
+        <div class="container">
+            <div class="marketplace-filters">
+                <div class="filter-group">
+                    <button class="filter-btn active" data-en="All" data-gr="Όλα">All</button>
+                    <button class="filter-btn" data-en="Art" data-gr="Τέχνη">Art</button>
+                    <button class="filter-btn" data-en="Music" data-gr="Μουσική">Music</button>
+                    <button class="filter-btn" data-en="Gaming" data-gr="Gaming">Gaming</button>
+                    <button class="filter-btn" data-en="Photography" data-gr="Φωτογραφία">Photography</button>
+                </div>
+                <select class="filter-select">
+                    <option data-en="Recently Listed" data-gr="Πρόσφατα Καταχωρημένα">Recently Listed</option>
+                    <option data-en="Price: Low to High" data-gr="Τιμή: Χαμηλή σε Υψηλή">Price: Low to High</option>
+                    <option data-en="Price: High to Low" data-gr="Τιμή: Υψηλή σε Χαμηλή">Price: High to Low</option>
+                    <option data-en="Most Popular" data-gr="Πιο Δημοφιλή">Most Popular</option>
+                </select>
+            </div>
+
+            <div class="nft-grid-large">
+                <div class="nft-card">
+                    <div class="nft-badge" data-en="Trending" data-gr="Trending">Trending</div>
+                    <div class="nft-image">
+                        <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=500" alt="NFT">
+                        <div class="nft-overlay">
+                            <button class="btn-view" data-en="Buy Now" data-gr="Αγορά Τώρα">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <h3>Cyber Samurai #2891</h3>
+                        <div class="nft-meta">
+                            <div class="nft-creator">
+                                <img src="https://i.pravatar.cc/150?img=21" alt="Creator">
+                                <span>@cyberninja</span>
+                            </div>
+                            <div class="nft-price">
+                                <i class="fab fa-ethereum"></i>
+                                <span>3.8 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nft-card">
+                    <div class="nft-image">
+                        <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=500" alt="NFT">
+                        <div class="nft-overlay">
+                            <button class="btn-view" data-en="Buy Now" data-gr="Αγορά Τώρα">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <h3>Neon Dreams #5671</h3>
+                        <div class="nft-meta">
+                            <div class="nft-creator">
+                                <img src="https://i.pravatar.cc/150?img=34" alt="Creator">
+                                <span>@dreamweaver</span>
+                            </div>
+                            <div class="nft-price">
+                                <i class="fab fa-ethereum"></i>
+                                <span>2.1 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nft-card">
+                    <div class="nft-image">
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500" alt="NFT">
+                        <div class="nft-overlay">
+                            <button class="btn-view" data-en="Buy Now" data-gr="Αγορά Τώρα">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <h3>Digital Realm #3456</h3>
+                        <div class="nft-meta">
+                            <div class="nft-creator">
+                                <img src="https://i.pravatar.cc/150?img=56" alt="Creator">
+                                <span>@pixelmaster</span>
+                            </div>
+                            <div class="nft-price">
+                                <i class="fab fa-ethereum"></i>
+                                <span>4.5 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nft-card">
+                    <div class="nft-image">
+                        <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=500" alt="NFT">
+                        <div class="nft-overlay">
+                            <button class="btn-view" data-en="Buy Now" data-gr="Αγορά Τώρα">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <h3>Meta Universe #7823</h3>
+                        <div class="nft-meta">
+                            <div class="nft-creator">
+                                <img src="https://i.pravatar.cc/150?img=78" alt="Creator">
+                                <span>@metaverse</span>
+                            </div>
+                            <div class="nft-price">
+                                <i class="fab fa-ethereum"></i>
+                                <span>1.9 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nft-card">
+                    <div class="nft-image">
+                        <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500" alt="NFT">
+                        <div class="nft-overlay">
+                            <button class="btn-view" data-en="Buy Now" data-gr="Αγορά Τώρα">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <h3>Quantum Art #4521</h3>
+                        <div class="nft-meta">
+                            <div class="nft-creator">
+                                <img src="https://i.pravatar.cc/150?img=43" alt="Creator">
+                                <span>@quantumart</span>
+                            </div>
+                            <div class="nft-price">
+                                <i class="fab fa-ethereum"></i>
+                                <span>5.2 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nft-card">
+                    <div class="nft-image">
+                        <img src="https://images.unsplash.com/photo-1645731137386-db6f92976ae8?w=500" alt="NFT">
+                        <div class="nft-overlay">
+                            <button class="btn-view" data-en="Buy Now" data-gr="Αγορά Τώρα">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <h3>Space Explorer #9012</h3>
+                        <div class="nft-meta">
+                            <div class="nft-creator">
+                                <img src="https://i.pravatar.cc/150?img=65" alt="Creator">
+                                <span>@spaceart</span>
+                            </div>
+                            <div class="nft-price">
+                                <i class="fab fa-ethereum"></i>
+                                <span>2.7 ETH</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-more">
+                <button class="btn btn-outline" data-en="Load More" data-gr="Φορτώστε Περισσότερα">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-hex">Ͼ</div>
+                        <span>CryptoVerse</span>
+                    </div>
+                    <p data-en="The premier marketplace for NFTs. Built on Ethereum blockchain." data-gr="Η κορυφαία αγορά για NFTs.">
+                        The premier marketplace for NFTs. Built on Ethereum blockchain.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Marketplace" data-gr="Αγορά">Marketplace</h3>
+                    <ul>
+                        <li><a href="#" data-en="All NFTs" data-gr="Όλα τα NFTs">All NFTs</a></li>
+                        <li><a href="#" data-en="Art" data-gr="Τέχνη">Art</a></li>
+                        <li><a href="#" data-en="Music" data-gr="Μουσική">Music</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Resources" data-gr="Πόροι">Resources</h3>
+                    <ul>
+                        <li><a href="#" data-en="Help Center" data-gr="Κέντρο Βοήθειας">Help Center</a></li>
+                        <li><a href="#" data-en="Blog" data-gr="Blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Company" data-gr="Εταιρεία">Company</h3>
+                    <ul>
+                        <li><a href="web3-about.html" data-en="About" data-gr="Σχετικά">About</a></li>
+                        <li><a href="web3-connect.html" data-en="Contact" data-gr="Επικοινωνία">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CryptoVerse. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

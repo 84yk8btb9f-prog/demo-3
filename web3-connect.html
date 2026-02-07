@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Wallet | CryptoVerse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="gr">ΕΛ</button>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-hex">Ͼ</div>
+                <span>CryptoVerse</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="web3-index.html" data-en="Home" data-gr="Αρχική">Home</a></li>
+                <li><a href="web3-marketplace.html" data-en="Marketplace" data-gr="Αγορά">Marketplace</a></li>
+                <li><a href="web3-about.html" data-en="About" data-gr="Σχετικά">About</a></li>
+                <li><a href="web3-connect.html" class="active" data-en="Connect" data-gr="Σύνδεση">Connect</a></li>
+            </ul>
+            <button class="btn-wallet" data-en="Connect Wallet" data-gr="Σύνδεση Πορτοφολιού">Connect Wallet</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-en="Connect Your Wallet" data-gr="Συνδέστε το Πορτοφόλι Σας">Connect Your Wallet</h1>
+            <p data-en="Choose your preferred wallet to start trading NFTs" data-gr="Επιλέξτε το πορτοφόλι σας για να ξεκινήσετε τις συναλλαγές">
+                Choose your preferred wallet to start trading NFTs
+            </p>
+        </div>
+    </section>
+
+    <section class="connect-section">
+        <div class="container">
+            <div class="wallets-grid">
+                <div class="wallet-card">
+                    <div class="wallet-icon">
+                        <i class="fab fa-ethereum"></i>
+                    </div>
+                    <h3>MetaMask</h3>
+                    <p data-en="Most popular Ethereum wallet" data-gr="Το πιο δημοφιλές πορτοφόλι Ethereum">Most popular Ethereum wallet</p>
+                    <button class="btn btn-wallet-connect" data-en="Connect MetaMask" data-gr="Σύνδεση MetaMask">Connect MetaMask</button>
+                </div>
+
+                <div class="wallet-card">
+                    <div class="wallet-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>WalletConnect</h3>
+                    <p data-en="Connect with mobile wallets" data-gr="Σύνδεση με mobile πορτοφόλια">Connect with mobile wallets</p>
+                    <button class="btn btn-wallet-connect" data-en="Connect WalletConnect" data-gr="Σύνδεση WalletConnect">Connect WalletConnect</button>
+                </div>
+
+                <div class="wallet-card">
+                    <div class="wallet-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Coinbase Wallet</h3>
+                    <p data-en="Secure and easy to use" data-gr="Ασφαλές και εύκολο στη χρήση">Secure and easy to use</p>
+                    <button class="btn btn-wallet-connect" data-en="Connect Coinbase" data-gr="Σύνδεση Coinbase">Connect Coinbase</button>
+                </div>
+
+                <div class="wallet-card">
+                    <div class="wallet-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Trust Wallet</h3>
+                    <p data-en="Multi-chain support" data-gr="Υποστήριξη πολλαπλών chains">Multi-chain support</p>
+                    <button class="btn btn-wallet-connect" data-en="Connect Trust" data-gr="Σύνδεση Trust">Connect Trust</button>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <h2 data-en="Frequently Asked Questions" data-gr="Συχνές Ερωτήσεις">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3 data-en="What is a crypto wallet?" data-gr="Τι είναι ένα crypto πορτοφόλι;">What is a crypto wallet?</h3>
+                        <p data-en="A crypto wallet stores your private keys and allows you to send, receive, and manage your cryptocurrencies and NFTs securely." data-gr="Ένα crypto πορτοφόλι αποθηκεύει τα ιδιωτικά σας κλειδιά και σας επιτρέπει να στέλνετε, να λαμβάνετε και να διαχειρίζεστε τα cryptocurrencies και NFTs σας με ασφάλεια.">
+                            A crypto wallet stores your private keys and allows you to send, receive, and manage your cryptocurrencies and NFTs securely.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 data-en="How do I connect my wallet?" data-gr="Πώς συνδέω το πορτοφόλι μου;">How do I connect my wallet?</h3>
+                        <p data-en="Click on your preferred wallet above. A popup will appear asking you to authorize the connection. Follow the prompts to complete." data-gr="Κάντε κλικ στο πορτοφόλι που προτιμάτε παραπάνω. Θα εμφανιστεί ένα παράθυρο που θα σας ζητήσει να εξουσιοδοτήσετε τη σύνδεση.">
+                            Click on your preferred wallet above. A popup will appear asking you to authorize the connection. Follow the prompts to complete.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 data-en="Is it safe to connect my wallet?" data-gr="Είναι ασφαλές να συνδέσω το πορτοφόλι μου;">Is it safe to connect my wallet?</h3>
+                        <p data-en="Yes. We never store your private keys or seed phrases. The connection is encrypted and follows industry security standards." data-gr="Ναι. Δεν αποθηκεύουμε ποτέ τα ιδιωτικά σας κλειδιά ή seed phrases. Η σύνδεση είναι κρυπτογραφημένη.">
+                            Yes. We never store your private keys or seed phrases. The connection is encrypted and follows industry security standards.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 data-en="What are the fees?" data-gr="Ποια είναι τα τέλη;">What are the fees?</h3>
+                        <p data-en="CryptoVerse charges 2.5% on sales. You'll also pay gas fees to the Ethereum network when minting or transferring NFTs." data-gr="Το CryptoVerse χρεώνει 2.5% στις πωλήσεις. Θα πληρώσετε επίσης gas fees στο δίκτυο Ethereum.">
+                            CryptoVerse charges 2.5% on sales. You'll also pay gas fees to the Ethereum network when minting or transferring NFTs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-hex">Ͼ</div>
+                        <span>CryptoVerse</span>
+                    </div>
+                    <p data-en="The premier marketplace for NFTs. Built on Ethereum blockchain." data-gr="Η κορυφαία αγορά για NFTs.">
+                        The premier marketplace for NFTs. Built on Ethereum blockchain.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Marketplace" data-gr="Αγορά">Marketplace</h3>
+                    <ul>
+                        <li><a href="#" data-en="All NFTs" data-gr="Όλα τα NFTs">All NFTs</a></li>
+                        <li><a href="#" data-en="Art" data-gr="Τέχνη">Art</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Resources" data-gr="Πόροι">Resources</h3>
+                    <ul>
+                        <li><a href="#" data-en="Help Center" data-gr="Κέντρο Βοήθειας">Help Center</a></li>
+                        <li><a href="#" data-en="Blog" data-gr="Blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Company" data-gr="Εταιρεία">Company</h3>
+                    <ul>
+                        <li><a href="web3-about.html" data-en="About" data-gr="Σχετικά">About</a></li>
+                        <li><a href="web3-connect.html" data-en="Contact" data-gr="Επικοινωνία">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CryptoVerse. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
